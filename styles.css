@@ -1,3 +1,4 @@
+/* your css code here */
 * {
   margin: 0;
   padding: 0;
@@ -9,17 +10,17 @@ body {
   width: 100vw;
 }
 
-.navbar {
+.container {
   width: 100vw;
   background-color: #D3D3D3;
   padding: 10px;
 }
 
 .listItems {
-  list-style: none;   /* removes bullets from ul */
+  display: flex;       /* Cypress expects flex */
+  list-style: none;    /* removes bullets */
 }
 
 .listItems li {
-  display: inline;    /* makes li horizontal */
   margin-right: 1rem;
 }
