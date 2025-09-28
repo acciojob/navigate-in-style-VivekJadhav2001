@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: #D3D3D3;
+  padding: 10px;
+}
+
+.listItems {
+  list-style: none;   /* removes bullets from ul */
+}
+
+.listItems li {
+  display: inline;    /* makes li horizontal */
+  margin-right: 1rem;
+}
